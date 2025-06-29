@@ -1,6 +1,6 @@
 import React from "react";
 
-const BenifitsCard = ({ title, description, image }) => {
+const BenefitCard = ({ title, description, image }) => {
   return (
     <div className="card w-full p-6 bg-base-100 shadow-md border hover:shadow-lg transition-all">
       <div className="card-body flex flex-col sm:flex-row items-start gap-4">
@@ -15,4 +15,4 @@ const BenifitsCard = ({ title, description, image }) => {
   );
 };
 
-export default BenifitsCard;
+export default BenefitCard;

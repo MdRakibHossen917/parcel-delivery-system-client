@@ -4,7 +4,6 @@ import tracking from "../../../../assets/live-tracking.png";
 import call from "../../../../assets/safe-delivery.png";
 import support from "../../../../assets/safe-delivery.png";
 
-
 const benefits = [
   {
     id: 1,
@@ -29,7 +28,7 @@ const benefits = [
   },
 ];
 
-const Benifits = () => {
+const Benefits = () => {
   return (
     <div className="py-16 bg-base-200">
       <div className="max-w-7xl mx-auto px-4">
@@ -44,4 +43,4 @@ const Benifits = () => {
   );
 };
 
-export default Benifits;
+export default Benefits;
